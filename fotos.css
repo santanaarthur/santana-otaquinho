@@ -55,7 +55,7 @@ a:active{
   font-size: 27px;
   padding: 20px;
   width: 257px;
-  transition: all 0.5s;
+  transition: all 0.1s;
   cursor: pointer;
   float: left;
 }
