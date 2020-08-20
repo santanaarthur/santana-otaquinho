@@ -11,7 +11,7 @@ body{
 
 #cabeça{
   vertical-align: top;
-  text-align: justify;
+  text-align: center;
 }
 
 #foto-frente{
@@ -28,7 +28,7 @@ h1{
   font-family: sans-serif, helvetica;
   display: inline;
   font-size: 50px;
-  text-align: center;
+  margin-left: auto;
 }
 h2{
   font-family: sans-serif;
@@ -83,8 +83,6 @@ iframe{
 }
 
 
-
-
 .lista{
   background-image: url("fudo indicie.png");
   opacity : 0.8;
@@ -117,11 +115,6 @@ iframe{
   background-color: white;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}
-
-#animes-pics{
-  color: white;
-  display: inline-block;
 }
 
 #fotos{
