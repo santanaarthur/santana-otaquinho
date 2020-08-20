@@ -1,0 +1,124 @@
+html{
+  height: 100%;
+}
+body{
+  background-image: url("degrade fundo.jpg");
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: justify;
+}
+
+#cabeça{
+  vertical-align: top;
+  text-align: justify;
+}
+
+#foto-frente{
+  width: 300px;
+  display: block;
+  margin: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+h1{
+  font-family: sans-serif, helvetica;
+  display: inline;
+  font-size: 50px;
+}
+h2{
+  font-family: sans-serif;
+}
+h3{
+  font-family: arial, sans-serif, helvetica;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+em{
+  font-family: sans-serif;
+  font-size: 10px;
+
+}
+
+
+
+#musicas{
+  width: 500px;
+}
+
+
+
+a:link{
+  color: black;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: red;
+}
+a:active{
+  color: gray;
+}
+
+
+
+.borda{
+  margin: 4%;
+  border: 0px solid white;
+  padding: 5%;
+}
+
+
+iframe{
+  float: right;
+  margin: 3%;
+  border: 2px solid white;
+  padding: 1%;
+}
+
+
+
+
+.lista{
+  background-image: url("fudo indicie.png");
+  opacity : 0.8;
+  color: black;
+  border: 0px solid white;
+  border-radius: 10px;
+  margin: 2%;
+  padding: 1%;  y
+}
+
+
+
+
+.button{
+  display: inline-block;
+  background-image: url("fudo indicie.png");
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 27px;
+  padding: 20px;
+  width: 257px;
+  transition: all 0.5s;
+  cursor: pointer;
+  float: left;
+}
+
+
+.button:active {
+  background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#animes-pics{
+  color: white;
+  display: inline-block;
+}
