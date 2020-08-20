@@ -7,9 +7,12 @@ body{
   background-size: contain;
   color: white;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 400;
   text-align: justify;
+  font-family: arial;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 #cabeça{
   vertical-align: top;
@@ -27,22 +30,22 @@ body{
 
 
 h1{
-  font-family: sans-serif, helvetica;
+  font-family: Luckiest Guy;
   display: inline;
   font-size: 50px;
   margin-left: auto;
 }
 h2{
-  font-family: sans-serif;
+  font-family: Luckiest Guy;
 }
 h3{
-  font-family: arial, sans-serif, helvetica;
+  font-family: Luckiest Guy;
   font-size: 30px;
   text-decoration: underline;
 }
 
 em{
-  font-family: sans-serif;
+  font-family: Anton;
   font-size: 10px;
 
 }
@@ -104,8 +107,9 @@ iframe{
   border: none;
   color: #FFFFFF;
   text-align: center;
-  font-size: 27px;
-  padding: 20px;
+  font-family: Luckiest Guy;
+  font-size: 25px;
+  padding: 17px;
   width: 257px;
   transition: all 0.1s;
   cursor: pointer;
