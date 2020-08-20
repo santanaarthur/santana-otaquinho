@@ -7,10 +7,14 @@ body{
   font-size: 22px;
   font-weight: 600;
   text-align: center;
+  font-family: Luckiest Guy;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 #cabeça{
   text-align: center;
+  font-family: Luckiest Guy;
 }
 
 #ps1{
@@ -18,6 +22,7 @@ body{
   display: inline-block;
   margin-left: 50px;
   margin-right: 60px;
+  font-family: Luckiest Guy;
 }
 
 #ps2{
@@ -25,6 +30,8 @@ body{
   display: inline-block;
   margin-left: 50px;
   margin-right: 60px;
+  font-family: Luckiest Guy;
+
 }
 a:link{
   color: black;
@@ -46,18 +53,21 @@ a:active{
   padding: 5%;
 }
 
+
 .button{
   display: inline-block;
   background-image: url("fudo indicie.png");
   border: none;
   color: #FFFFFF;
   text-align: center;
-  font-size: 27px;
-  padding: 20px;
+  font-family: Luckiest Guy;
+  font-size: 25px;
+  padding: 17px;
   width: 257px;
   transition: all 0.1s;
   cursor: pointer;
   float: left;
+  position: relative;
 }
 
 
@@ -66,7 +76,6 @@ a:active{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-
 #animes-pics{
   color: white;
   display: inline-block;
