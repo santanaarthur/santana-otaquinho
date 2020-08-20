@@ -110,6 +110,7 @@ iframe{
   transition: all 0.1s;
   cursor: pointer;
   float: left;
+  position: relative;
 }
 
 
