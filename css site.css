@@ -31,16 +31,16 @@ body{
 
 
 h1{
-  font-family: Lilita One;
+  font-family: Luckiest Guy, Lilita One;
   display: inline;
   font-size: 50px;
   margin-left: auto;
 }
 h2{
-  font-family: Luckiest Guy;
+  font-family: Luckiest Guy, Lilita One;
 }
 h3{
-  font-family: Luckiest Guy;
+  font-family: Luckiest Guy, Lilita One;
   font-size: 30px;
   text-decoration: underline;
 }
@@ -108,7 +108,7 @@ iframe{
   border: none;
   color: #FFFFFF;
   text-align: center;
-  font-family: Luckiest Guy;
+  font-family: Luckiest Guy, Lilita One;
   font-size: 25px;
   padding: 17px;
   width: 257px;
