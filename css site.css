@@ -13,6 +13,7 @@ body{
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
 #cabeça{
   vertical-align: top;
@@ -30,7 +31,7 @@ body{
 
 
 h1{
-  font-family: Luckiest Guy;
+  font-family: Lilita One;
   display: inline;
   font-size: 50px;
   margin-left: auto;
