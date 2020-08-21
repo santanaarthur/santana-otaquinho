@@ -3,6 +3,8 @@ html{
 }
 body{
   background-image: url("degrade fundo.jpg");
+  background-attachment: fixed;
+  background-size: contain;
   color: white;
   font-size: 22px;
   font-weight: 600;
