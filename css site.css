@@ -18,7 +18,6 @@ audio{
 
 
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
 #cabeça{
   vertical-align: top;
@@ -113,7 +112,7 @@ iframe{
   border: none;
   color: #FFFFFF;
   text-align: center;
-  font-family: Luckiest Guy, Lilita One;
+  font-family: Luckiest Guy, cursive;
   font-size: 25px;
   padding: 17px;
   width: 257px;
