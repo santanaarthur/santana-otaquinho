@@ -1,58 +1,139 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, inicial-scale=1" >
-    <title>Sitezin do Santana</title>
-    <link rel="icon" href="icone.png">
-    <link rel="stylesheet" href="css site.css">
-  </head>
-  <body>
-    <button type="submit" class="button"><a href="#Item-um">Sobre mim</button>
-    <button type="submit" class="button"><a href="#Item-dois">Animes Favoritos</button>
-    <button type="submit" class="button"><a href="#Item-tres">Músicas pra ouvir</button>
-    <button type="submit" class="button"><a href="#Item-quatro">Meus amigos</button>
-    <button type="submit" class="button"><a href="#Item-cinco">Meus bichinho</button></a>
+html{
+  height: 100%;
+}
+body{
+  background-image: url("degrade fundo.jpg");
+  background-attachment: fixed;
+  background-size: contain;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: justify;
+  font-family: arial;
+}
 
-    <div class="borda">
-      <div id="cabeça">
-        <img src="frente site.png" id="foto-frente">
-        <h1>Sant'Ana, um otaku não tão fedido</h1>
-            <audio src="lofi.mp3" autoplay controls loop></audio>
-      </div>
-      <h2 id="Item-um"><br>Sobre mim</h2>
-        <p>Meu nome é <strong>Arthur Sant'Ana</strong> (e sim, está escrito certo), apesar de Arthur ser meu nome, varias pessoas me conhecem só como <strong>Santana</strong>, tenho 16 anos, faço 17 dia 20/12 (aceito presentes).
-          <br>Eu sou bicalouro em informática no CEFET, antes de studar no CEFET eu era do Caetano Azeredo, uma escola legal, mas não é lá uma das melhores.
-          <br>As coisas que eu mais amo são ouvir música, ver animes e comer, pode ser fast food, restaurante ou até miojo, não existe comida ruim(exceto: figado, jiló e quiabo), e nem tempo ruim pra comer e ouvir musica.
-          <br>Tenho duas irmãs, Luiza(20) e Maria Liz(3). Moro com as duas e com minha mãe, Kenya.
-        </p>
-        <h2 id="Item-dois">Animes Favoritos:</h2>
-          <p>Quando o assunto é anime, não sou lá um especilialista, nem perto na verdade. O anime que eu vi e mais gostei é uma coisa meio que dificil de responder, tanto por existir vários e eu não lembrar o nome. Eu até diria Akame ga Kill, mas eu me senti muito mal com o final, mas com certeza o meu favorito é algum estilo ecchi com comédia, tipo Kono Subarashii, mas também existem animes ÓTIMOS como Tate no Yuusha(em inglês: The Rising of the Shield Hero).
-          <br>Isso quando o assunto é série, mas quando o assunto é filme, só consigo pensar em três como os melhores: Tenki no ko, Koe no katachi e Kimi no na wa. Chorei com todos, e a animação é algo que você se surpreende com a qualidade a cada segundo. Essses são definitivamente os melhores para mim.
-            <br>Pra ver os animes <a href="fotos.html" id="fotos">clique aqui</a>
+audio{
+  opacity: 0.01;
+}
 
-      <h2 id="Item-tres">Musicas que eu gosto:</h2>
-      <div class="lista" id="musicas">
-        <ol>
-          <li><a href="https://youtu.be/IHoj7qvNmwk" target="_blank">june - A Little Messed Up</a>
-          <li><a href="https://youtu.be/3wLLgJ_a7Rs" target="_blank">Oliver Tree - Alien Boy</a>
-          <li><a href="https://youtu.be/zNrKoWG7Cj0" target="_blank">Sub Urban - Freak (feat. REI AMI)</a>
-          <li><a href="https://youtu.be/KGgOz_gRD_c" target="_blank">Psycho - Mia Rodriguez</a>
-          <li><a href="https://youtu.be/hM7Eh0gGNKA" target="_blank">SIAMÉS - Summer Nights</a> <em> Não sei porque mas choro ouvindo essa</em>
-          <li><a href="https://youtu.be/loOWKm8GW6A" target="_blank">twenty one pilots - Level of Concern</a>
-          <li><a href="https://youtu.be/M9Et0bQ1xaw" target="_blank">mxmtoon - unspoken words</a>
-          <li><a href="https://youtu.be/wtZskz4zo24" target="_blank">REI AMI - SNOWCONE</a>
-          <li><a href="https://youtu.be/4o_IQavlMDA" target="_blank">Ashnikko - Hi, It's Me</a>
-          <li><a href="https://youtu.be/pssWSj42t8M" target="_blank">Ashnikko - Cry Feat. Grimes</a>
-          <li><a href="https://www.youtube.com/playlist?list=PLWYWeoZ0e67vdM_zJ2wBUa0i5cfQQRLsD" target="_blank">Minha Playlist pra vc se deliciar um pouco</a>
-          </li>
-        </ol>
-      </div>
-      <h2 id="Item-quatro">Meus amiguinhos:</h2>
-      <p>Meus amigos durante a quarentena se resumiram em umas 6/7 pessoas, o que é meio triste, mas é a realidade.Não tem muito o que dizer sobre eles,exceto que eles são pessoas incriveis e fazem seu tempo com eles valer a pena.
-        <h2 id="Item-cinco">Meus bichinhos que eu amo mais que minhas irmãs:</h2>
-        <p>São dois bichinhos, uma tartaruga que o nome é tartaruga, e uma cachoorinha mt velha e gorda, o nome dela é Lua, por causa da atriz Lua Colei que fez a Roberta no Rebeldes BR, ela é uma cachorrinha pinscher com vira lata que acredite ou não, dorme no meu colo tranquila, sem tremer de raiva.
-         </div>
-    </div>
-  </body>
-</html>
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+#cabeça{
+  vertical-align: top;
+  text-align: center;
+}
+
+#foto-frente{
+  width: 300px;
+  display: block;
+  margin: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+h1{
+  font-family: Luckiest Guy, Lilita One;
+  display: inline;
+  font-size: 50px;
+  margin-left: auto;
+}
+h2{
+  font-family: Luckiest Guy, Lilita One;
+}
+h3{
+  font-family: Luckiest Guy, Lilita One;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+em{
+  font-family: Anton;
+  font-size: 10px;
+
+}
+
+
+
+#musicas{
+  width: 460px;
+}
+
+
+
+a:link{
+  color: black;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: red;
+}
+a:active{
+  color: gray;
+}
+
+
+
+.borda{
+  margin: 4%;
+  border: 0px solid white;
+  padding: 5%;
+}
+
+
+iframe{
+  float: right;
+  margin: 3%;
+  border: 2px solid white;
+  padding: 1%;
+}
+
+
+.lista{
+  background-image: url("fudo indicie.png");
+  opacity : 0.8;
+  color: black;
+  border: 0px solid white;
+  border-radius: 10px;
+  margin: 2%;
+  padding: 1%;  y
+}
+
+
+
+
+.button{
+  display: inline-block;
+  background-image: url("fudo indicie.png");
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Luckiest Guy;
+  font-size: 25px;
+  padding: 17px;
+  width: 257px;
+  transition: all 0.1s;
+  cursor: pointer;
+  float: left;
+  position: relative;
+}
+
+
+.button:active {
+  background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+#fotos{
+  color: white;
+}
+#fotos:hover{
+    color: red;
+
+}
