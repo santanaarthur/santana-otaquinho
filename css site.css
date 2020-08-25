@@ -16,7 +16,6 @@ audio{
   opacity: 0.01;
 }
 
-
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 #cabeça{
@@ -35,22 +34,22 @@ audio{
 
 
 h1{
-  font-family: Luckiest Guy, Lilita One;
+  font-family: "Luckiest Guy";
   display: inline;
   font-size: 50px;
   margin-left: auto;
 }
 h2{
-  font-family: Luckiest Guy, Lilita One;
+  font-family: "Luckiest Guy";
 }
 h3{
-  font-family: Luckiest Guy, Lilita One;
+  font-family: "Luckiest Guy";
   font-size: 30px;
   text-decoration: underline;
 }
 
 em{
-  font-family: Anton;
+  font-family: "Luckiest Guy";;
   font-size: 10px;
 
 }
@@ -115,7 +114,7 @@ iframe{
   border: none;
   color: #FFFFFF;
   text-align: center;
-  font-family: Luckiest Guy;
+  font-family: "Luckiest Guy";
   font-size: 25px;
   padding: 17px;
   width: 257px;
