@@ -9,14 +9,14 @@ body{
   font-size: 22px;
   font-weight: 600;
   text-align: center;
-  font-family: Luckiest Guy;
+  font-family: "Luckiest Guy";
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 #cabeça{
   text-align: center;
-  font-family: Luckiest Guy;
+  font-family: "Luckiest Guy";
 }
 
 #ps1{
@@ -24,7 +24,7 @@ body{
   display: inline-block;
   margin-left: 50px;
   margin-right: 60px;
-  font-family: Luckiest Guy;
+  font-family: "Luckiest Guy";
 }
 
 #ps2{
@@ -32,7 +32,7 @@ body{
   display: inline-block;
   margin-left: 50px;
   margin-right: 60px;
-  font-family: Luckiest Guy;
+  font-family: "Luckiest Guy";
 
 }
 a:link{
@@ -62,7 +62,7 @@ a:active{
   border: none;
   color: #FFFFFF;
   text-align: center;
-  font-family: Luckiest Guy;
+  font-family: "Luckiest Guy";
   font-size: 25px;
   padding: 17px;
   width: 257px;
