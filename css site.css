@@ -7,105 +7,52 @@ body{
   background-size: contain;
   color: white;
   font-size: 22px;
-  font-weight: 400;
-  text-align: justify;
-  font-family: arial;
-}
-
-audio{
-  opacity: 0.01;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Luckiest Guy";
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
+div {
+  border: none;
+}
+
+
+.cell{
+  float: left;
+  min-height: 22px;
+
+  margin-bottom: 100px;
+  margin-right: 50px;
+  margin-left: 30px;
+
+}
+
+
 #cabeça{
-  vertical-align: top;
   text-align: center;
-}
-
-#foto-frente{
-  width: 300px;
-  display: block;
-  margin: 75px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-h1{
-  font-family: "Luckiest Guy";
-  display: inline;
-  font-size: 50px;
-  margin-left: auto;
-}
-h2{
   font-family: "Luckiest Guy";
 }
-h3{
-  font-family: "Luckiest Guy";
-  font-size: 30px;
-  text-decoration: underline;
-}
-
-em{
-  font-family: "Luckiest Guy";;
-  font-size: 10px;
-
-}
-
-
-
-#musicas{
-  width: 460px;
-}
-
 
 a:link{
   color: black;
-  text-decoration: none;
 }
 a:visited{
   color: black;
-    text-decoration: none;
 }
 a:hover{
   color: red;
-    text-decoration: none;
 }
 a:active{
   color: gray;
-    text-decoration: none;
 }
-
-
 
 .borda{
   margin: 4%;
   border: 0px solid white;
   padding: 5%;
 }
-
-
-iframe{
-  float: right;
-  margin: 3%;
-  border: 2px solid white;
-  padding: 1%;
-}
-
-
-.lista{
-  background-image: url("fudo indicie.png");
-  opacity : 0.8;
-  color: black;
-  border: 0px solid white;
-  border-radius: 10px;
-  margin: 2%;
-  padding: 1%;  y
-}
-
-
 
 
 .button{
@@ -129,13 +76,4 @@ iframe{
   background-color: white;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}
-
-
-#fotos{
-  color: white;
-}
-#fotos:hover{
-    color: red;
-
 }
